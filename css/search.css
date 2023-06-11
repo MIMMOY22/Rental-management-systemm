@@ -1,0 +1,24 @@
+
+#container{
+ margin-left: 500px;
+}
+#text {
+    top: 10px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #23242b;
+    color: white;
+    padding-right: 20px;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  #text:focus {
+    width: 100%;
+  }

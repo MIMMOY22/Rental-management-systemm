@@ -1,0 +1,102 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+#header
+{
+    overflow:visible ;
+}
+#post
+{
+    height: 500px;
+}
+body{
+    background-color: #23242b;
+  }
+/* 
+  @keyframes example{
+    0%{
+      background-image: url(apartment.jpg);
+    }
+    25%{
+      background-image: url(bus.jpg);
+    }
+    50%{
+      background-image: url(car.jpg);
+    }
+    75%{
+      background-image: url(bike.jpg);
+    }
+    100%{
+      background-image: url(truck.jpg);
+    }
+ } */
+
+
+/*Basic structure of slider*/
+.container{
+    width: 500px;
+    position: absolute;
+    right: 30%;
+    overflow: hidden;
+   
+
+    /* width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    overflow:hidden;
+    padding-left: 50px; */
+    /* border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px black; */
+}
+
+/*Area of images*/
+.wrapper{
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img{
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    60%{
+        transform: translateX(-200%);
+    }
+    70%{
+        transform: translateX(-300%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    90%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+}

@@ -1,0 +1,79 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0px 300px;
+    margin-left: 400px;
+    text-align: center;
+    color: cyan;
+  }
+  
+  .title {
+    color: white;
+    font-size: 18px;
+  }
+  /* #header:hover{
+    color: #127b8e;
+  } */
+/* button:hover {
+    color: #127b8e;
+  } */
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #FF00FF;
+    background-color: #23242b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color:white;
+    
+  }
+  
+  button:hover, a:hover {
+    
+    color: #127b8e;
+    opacity: 0.5;
+  }
+  a:hover {
+    background-color:coral;
+  }
+  #header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #23242b;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 5px 10px;
+    background-color:#127b8e;
+    background:#23242b;
+    color: #fff;
+  }
+  .u-name {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  .u-name b {
+    color: #127b8e;
+  }
+  #logout{
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  #footer{
+    padding-top: 60px;
+    text-align: center;
+    font-size: large;
+  }
+  

@@ -1,0 +1,146 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+   
+}
+#rg{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container 
+{   width: 450px; ;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF00FF;
+    border-radius: 5px;
+    background-color: black;
+    padding: 25px;
+    margin: 60px 20px 170px 500px;
+    animation: mymove   2s infinite;
+}
+.main-user-info
+{
+    width: 410px;
+    
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+.user-input-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 5px;
+}
+label
+{
+    color:white;
+    font-family: serif;
+	text-align: center;
+	display:flex;
+    font-size: 15px;
+    margin: 2px 0px;
+    font-weight: 400;
+}
+.user-input-box input
+{
+    height: 35px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #00FFFF;
+    padding: 0px 5px;
+}
+#reg-textarea
+{
+    height: 35px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #00FFFF;
+    padding: 0px 5px;
+}
+
+#edit-textarea
+{
+    height: 114px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #00FFFF;
+    padding: 0px 5px;
+}
+.gender-input-box 
+{   
+    display:flex;
+    flex-flow:column;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.category
+{
+    margin: 5px 0px;
+}
+.category input
+{
+    margin-right: 5px;
+}
+
+.button
+{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    height: 35px;
+    width: 260px;
+    margin: 5px 5px 5px 5px;
+    background-color: #00FFFF;
+    border: none;
+    border-radius: 5px;
+    color: #FF00FF;
+}
+.button:hover
+{
+    background-color: #00FFFF;
+    color: #FF00FF;
+} 
+
+.label-bottom
+{
+    padding-left: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+h4
+{
+    font-size:large 60px;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    color:white;
+}
+p
+{
+    color: red;
+}
+@keyframes mymove {
+    10% {box-shadow: 1px 2px 3px 4px #FF00FF;}
+  }
+

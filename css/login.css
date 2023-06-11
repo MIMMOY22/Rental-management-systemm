@@ -1,0 +1,87 @@
+body
+{
+   
+    color:white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#form
+{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+.container 
+{
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: black;
+    height: 270px;
+    width: 300px;
+    padding: 5px;
+    margin: 100px 0px 110px 520px;
+    border-radius: 5px;
+    animation: mymove   2s infinite;
+}
+@keyframes mymove {
+    10% {box-shadow: 1px 2px 3px 4px #FF00FF;}
+  }
+.center
+{
+    margin: 10px 0px 0px 50px;
+}
+#input-field
+{
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    width: 260px;
+    margin: 5px;
+    height: 35px;
+    padding: 7px;
+}
+input[type=checkbox]
+{
+    margin: 5px;
+}
+.button
+{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    height: 35px;
+    width: 260px;
+    margin: 5px 5px 5px 5px;
+    background-color:#00FFFF ;
+    border: none;
+    border-radius: 5px;
+    color:#FF00FF ;
+}
+.button:hover
+{
+    background-color: #333;
+    color:#FF00FF;
+}
+h4
+{
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    color:white;
+}
+label
+{
+    font-family: serif;
+	text-align: center;
+	display: block;
+}
+p
+{
+    margin-left: 5px;
+}

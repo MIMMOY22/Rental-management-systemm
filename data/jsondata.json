@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Mimmoy Atik",
+        "email": "atikurking00@gmail.com",
+        "phone": "01982837350",
+        "nid": "6464565674",
+        "nationality": "Bangladesh",
+        "dob": "2023-02-16",
+        "pic": "..\/Upload\/atikurking00@gmail.com.jpg",
+        "gender": "male",
+        "address": "Savar bus stand , savar ,Dhaka",
+        "password": "mimMOY@22",
+        "cpassword": "mimMOY@22"
+    },
+    {
+        "name": "Mimmoy",
+        "email": "mimmoy@gmail.com",
+        "phone": "01582837350",
+        "nid": "1582837350",
+        "nationality": "algerian",
+        "dob": "2023-02-22",
+        "pic": "..\/Upload\/mimmoy@gmail.com.jpg",
+        "gender": "male",
+        "address": "dhaka",
+        "password": "12ABab@#",
+        "cpassword": "12ABab@#"
+    }
+]
